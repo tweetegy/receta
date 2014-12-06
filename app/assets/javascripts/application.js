@@ -15,6 +15,7 @@
 //= require angular
 //= require angular-route
 //= require angular-resource
+//= require angular-flash
 //= require angular-rails-templates
 //= require bootstrap-sass-official
 //= require_tree .

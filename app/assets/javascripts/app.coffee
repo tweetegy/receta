@@ -1,8 +1,10 @@
-@receta = angular.module('receta',[
+angular.module('receta',[
   'templates',
   'ngRoute',
   'controllers',
-  'ngResource'
+  'ngResource',
+  'angular-flash.service',
+  'angular-flash.flash-alert-directive'
 ])
 
 controllers = angular.module('controllers',[])

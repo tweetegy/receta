@@ -29,6 +29,8 @@ gem 'spring',        group: :development
 gem "rails-assets-angular"
 gem "rails-assets-angular-route"
 gem "rails-assets-bootstrap-sass-official"
+gem "rails-assets-angular-mocks"
+gem "rails-assets-angular-resource"
 gem 'angular-rails-templates'
 
 group :test, :development do
@@ -40,6 +42,8 @@ group :test, :development do
 end
 
 gem "foreman"
+gem 'teaspoon'
+gem 'phantomjs'
 
 group :production, :staging do
   gem "rails_12factor"
@@ -51,7 +55,7 @@ end
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use unicorn as the app server
-# gem 'unicorn'
+gem 'unicorn'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

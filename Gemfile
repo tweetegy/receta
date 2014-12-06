@@ -45,6 +45,7 @@ end
 gem "foreman"
 gem 'teaspoon'
 gem 'phantomjs'
+gem "asset_sync"
 
 group :production, :staging do
   gem "rails_12factor"

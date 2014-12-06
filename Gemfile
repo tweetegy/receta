@@ -27,7 +27,9 @@ gem 'spring',        group: :development
 # gem 'sass', '3.2.19'
 
 gem "rails-assets-angular"
+gem "rails-assets-angular-route"
 gem "rails-assets-bootstrap-sass-official"
+gem 'angular-rails-templates'
 
 group :test, :development do
   gem "rspec-rails", "~> 2.0"

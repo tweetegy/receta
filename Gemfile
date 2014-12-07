@@ -24,7 +24,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
 
-# gem 'sass', '3.2.19'
+gem 'newrelic_rpm'
 
 gem "rails-assets-angular"
 gem "rails-assets-angular-route"
